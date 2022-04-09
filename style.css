@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300&display=swap');
+
+.spacer-5-div {
+  margin-bottom: 5em;
+}
+
+.spacer-15-div {
+  margin-bottom: 15em;
+}
+
+.custom-input {
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-bottom-style: solid;
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  border-color: #ffce99;
+}
+
+.custom-input:focus {
+  border-color: none;
+  box-shadow: none;
+  outline: transparent;
+}
+
+.custom-body {
+  background-image: linear-gradient(#ffe6cc, #ffce99);
+}
+
+html {
+  height: 100%;
+}
+
+html, body {
+  font-family: 'Roboto Mono', monospace;
+}
