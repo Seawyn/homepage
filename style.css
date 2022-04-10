@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300&display=swap');
 
+.spacer-2-div {
+  margin-bottom: 2em;
+}
+
 .spacer-5-div {
   margin-bottom: 5em;
 }
@@ -29,10 +33,22 @@
   background-image: linear-gradient(#ffe6cc, #ffce99);
 }
 
+.search-div {
+  display: flex;
+}
+
 html {
   height: 100%;
 }
 
 html, body {
   font-family: 'Roboto Mono', monospace;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
 }
